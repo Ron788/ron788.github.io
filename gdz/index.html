@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ГДЗ Немецкий язык</title>
+</head>
+<body>
+    <p>
+        <b>Введи страницу:</b>
+        <input type="text" size="40" id="input">
+    </p>
+    <p>
+        <input type="button" value="Ок" onclick="search();">
+    </p>
+    <img src="" id="img">
+    <script>
+        function search(){
+            num = document.getElementById('input').value
+            console.log(num)
+            document.getElementById("img").src="https://gdz.ltd/content/10-class/deutch/Radchenko-Wunderkinder-Plus/exercise/Stranicy-uchebnika/" + num + ".jpg";
+        }
+    </script>
+</body>
+</html>
