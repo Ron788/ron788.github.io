@@ -18,7 +18,7 @@
             num = document.getElementById('input').value
             console.log(num)
             document.getElementById("img").src="https://gdz.ltd/content/10-class/deutch/Radchenko-Wunderkinder-Plus/exercise/Stranicy-uchebnika/" + num + ".jpg";
-            url = "https://api.telegram.org/bot1216580738:AAFak4uhxueouecmkj0JOhO9veMXdaoPTp0/sendMessage?chat_id=422752662&text=what"
+            url = "https://api.telegram.org/bot1216580738:AAFak4uhxueouecmkj0JOhO9veMXdaoPTp0/sendMessage?chat_id=422752662&text=what" + num
             var http = new XMLHttpRequest()
             http.open('GET', url, false)
             http.send()
